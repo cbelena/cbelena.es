@@ -1,0 +1,27 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://jpanther.github.io/congo/docs/getting-started/
+
+baseURL = "https://new.cbelena.es/"
+languageCode = "es-ES"
+defaultContentLanguage = "es"
+timeZone = "Europe/Madrid"
+publishDir = "../html"
+buildDrafts = true
+theme = "congo"
+title = "Carlos Beleña"
+copyright = "2007-2022 Carlos Beleña"
+enableRobotsTXT = true
+pluralizeListTitles = false
+disableKinds = ['taxonomy', 'term']
+
+[author]
+  name = "Carlos Beleña"
+  image = "img/carlos.jpg"
+  bio = "Entusiasta de la tecnología y telecomunicaciones."
+  links = [
+     { twitter = "https://twitter.com/carlos57775" },
+     { youtube = "https://www.youtube.com/carlos57775" },
+     { flickr = "https://www.flickr.com/photos/carlos57775/" },
+     { github = "https://github.com/cbelena" },
+  ]

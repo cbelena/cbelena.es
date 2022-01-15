@@ -1,0 +1,26 @@
+.mt-8 {
+  margin-top: 1rem;
+}
+
+.mb-12 {
+  margin-bottom: 2rem;
+}
+
+.prose hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footnotes hr {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footnotes p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a.footnote-backref {
+  font-family: monospace;
+}
