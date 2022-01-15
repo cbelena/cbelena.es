@@ -14,6 +14,7 @@ copyright = "2007-2022 Carlos Beleña"
 enableRobotsTXT = true
 pluralizeListTitles = false
 disableKinds = ['taxonomy', 'term']
+rssLimit = 25
 
 [author]
   name = "Carlos Beleña"
@@ -25,3 +26,20 @@ disableKinds = ['taxonomy', 'term']
      { flickr = "https://www.flickr.com/photos/carlos57775/" },
      { github = "https://github.com/cbelena" },
   ]
+
+[outputs]
+  home = ['HTML']
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
