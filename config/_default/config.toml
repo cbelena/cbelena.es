@@ -13,7 +13,7 @@ title = "Carlos Beleña"
 copyright = "2007-2022 Carlos Beleña"
 enableRobotsTXT = true
 pluralizeListTitles = false
-disableKinds = ['taxonomy', 'term']
+disableKinds = ["taxonomy", "term", "404"]
 rssLimit = 25
 
 [author]
@@ -28,7 +28,7 @@ rssLimit = 25
   ]
 
 [outputs]
-  home = ['HTML']
+  home = ["HTML"]
 
 [privacy]
   [privacy.disqus]

@@ -8,6 +8,7 @@
 description = "Página web de Carlos Beleña"
 colorScheme = "ocean"
 darkMode = "true"
+mainSections = ["blog"]
 
 [homepage]
   layout = "profile"
@@ -22,7 +23,7 @@ darkMode = "true"
   showReadingTime = false
   showEdit = false
   showDraftLabel = true
-  showHeadingAnchors = false
+  showHeadingAnchors = true
   showAuthor = true
   showPagination = true
 
