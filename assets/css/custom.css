@@ -212,10 +212,6 @@ body {
   }
 }
 
-.flex.flex-row.items-center {
-  flex-wrap: wrap;
-}
-
 .mt-8 {
   margin-top: 1rem;
 }
