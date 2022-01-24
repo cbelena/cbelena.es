@@ -6,10 +6,10 @@ article:
     one: "{{ .Count }} min"
     other: "{{ .Count }} min"
   reading_time_title: "Tiempo de lectura"
+  updated: "Actualizado"
   word_count:
     one: "{{ .Count }} palabra"
     other: "{{ .Count }} palabras"
-  updated: "Actualizado"
 
 author:
   byline_title: "Autor"
