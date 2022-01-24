@@ -15,3 +15,17 @@ And to build/publish:
 Remember that running `hugo` [does not](https://gohugo.io/getting-started/usage/#deploy-your-website) remove generated files before building.
 
 That's it! :tada:
+
+## Updates
+
+### Hugo
+
+To update Hugo, download latest release from [here](https://github.com/gohugoio/hugo/releases) and install it like any other package.
+
+### Theme
+
+To update Congo theme to latest version:
+
+`git submodule update --remote --merge`
+
+Once the submodule has been updated, rebuild with `hugo` and check everything works as expected.
