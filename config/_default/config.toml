@@ -8,7 +8,6 @@ timeZone = "Europe/Madrid"
 publishDir = "../html"
 buildDrafts = true
 theme = "congo"
-
 enableRobotsTXT = true
 pluralizeListTitles = false
 disableKinds = ["taxonomy", "term", "404"]
