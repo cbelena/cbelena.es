@@ -212,6 +212,10 @@ body {
   }
 }
 
+.h-screen {
+  max-height: -webkit-fill-available;
+}
+
 .mt-8 {
   margin-top: 1rem;
 }
