@@ -5,10 +5,11 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
-description = "Página web de Carlos Beleña"
 colorScheme = "ocean"
-darkMode = "true"
+defaultAppearance = "dark"
+autoSwitchAppearance = false
 mainSections = ["blog"]
+showScrollToTop = false
 
 [homepage]
   layout = "profile"
@@ -16,7 +17,6 @@ mainSections = ["blog"]
 
 [article]
   showBreadcrumbs = true
-  dateFormat = ":date_long"
   showDate = true
   showDateUpdated = false
   showWordCount = false

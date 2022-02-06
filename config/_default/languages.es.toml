@@ -1,0 +1,22 @@
+languageCode = "es"
+languageName = "Español"
+displayName = "ES"
+isoCode = "es-ES"
+weight = 1
+rtl = false
+dateFormat = ":date_long"
+title = "Carlos Beleña"
+description = "Página web de Carlos Beleña"
+copyright = "2007-2022 Carlos Beleña"
+
+[author]
+  name = "Carlos Beleña"
+  image = "img/carlos.jpg"
+  headline = "Entusiasta de la tecnología y telecomunicaciones"
+  bio = "Entusiasta de la tecnología y telecomunicaciones."
+  links = [
+     { twitter = "https://twitter.com/carlos57775" },
+     { youtube = "https://www.youtube.com/carlos57775" },
+     { flickr = "https://www.flickr.com/photos/carlos57775/" },
+     { github = "https://github.com/cbelena" },
+  ]
