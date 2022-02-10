@@ -172,16 +172,6 @@
        url("../fonts/Inter-VariableItalic.woff?v=3.19") format("woff");
 }
 
-@font-face {
-  font-family: 'Inter Arrow';
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  font-named-instance: 'Regular';
-  src: url("../fonts/Inter-LeftwardsArrowWithHook.woff2?v=3.19") format("woff2"),
-       url("../fonts/Inter-LeftwardsArrowWithHook.woff?v=3.19") format("woff");
-}
-
 body {
   font-family:
 		-apple-system,
@@ -251,6 +241,6 @@ a.footnote-backref {
     font-family:
       Menlo,
       'Cambria Math',
-      'Inter Arrow';
+      'Inter Variable';
   }
 }
