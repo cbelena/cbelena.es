@@ -18,7 +18,7 @@ showScrollToTop = false
 [article]
   showBreadcrumbs = true
   showDate = true
-  showDateUpdated = false
+  showDateUpdated = true
   showWordCount = false
   showReadingTime = false
   showEdit = false
