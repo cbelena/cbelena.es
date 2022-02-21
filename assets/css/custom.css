@@ -172,6 +172,7 @@
        url("../fonts/Inter-VariableItalic.woff?v=3.19") format("woff");
 }
 
+/*------------------------ custom styles ------------------------- */
 body {
   font-family:
 		-apple-system,
@@ -204,6 +205,10 @@ body {
 
 .h-screen {
   max-height: -webkit-fill-available;
+}
+
+h2.text-xl {
+  margin-top: 0.1rem;
 }
 
 .mt-8 {
