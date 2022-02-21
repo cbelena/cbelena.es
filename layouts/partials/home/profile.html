@@ -5,16 +5,13 @@
 >
   <header class="flex flex-col items-center mb-3">
     {{ with .Site.Author.image }}
-      {{ $authorImage := resources.Get . }}
-      {{ if $authorImage }}
-        <img
-          class="mb-2 rounded-full w-36 h-36"
-          width="144"
-          height="144"
-          alt="Author"
-          src="{{ $authorImage.RelPermalink }}"
-        />
-      {{ end }}
+      <img
+        class="mb-2 rounded-full w-36 h-36"
+        width="144"
+        height="144"
+        alt="Author"
+        src="{{ . | relURL }}"
+      />
     {{ end }}
     <h1 class="text-4xl font-extrabold">
       {{ .Site.Author.name | default .Site.Title }}
